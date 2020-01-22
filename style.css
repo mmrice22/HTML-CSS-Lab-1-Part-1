@@ -3,19 +3,25 @@ body {
   background-color: #f9fafc;
 }
 
-h2 {
+h3 {
   margin: 0;
+  font-size: small;
 }
 
 a {
   text-decoration: none;
   color: #69696a;
+  margin-top: 10px;
 }
 
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+li {
+  margin: 5px;
 }
 
 .company {
@@ -29,4 +35,10 @@ ul {
   display: block;
   text-align: center;
   border-radius: 20px;
+}
+
+p {
+  color: #69696a;
+  border-left: 2px solid #69696a;
+  padding: 10px;
 }
