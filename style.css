@@ -6,6 +6,7 @@ body {
 h3 {
   margin: 0;
   font-size: small;
+  font-weight: lighter;
 }
 
 a {
@@ -41,41 +42,40 @@ p {
 }
 
 .scroll {
-    background-color: #000;
-    color: #fff;
-    border: 100%;
-    display: block;
-    text-align: center;
-    border-radius: 20px;
-    padding: 5px;
-  }
+  background-color: #000;
+  color: #fff;
+  border: 100%;
+  display: block;
+  text-align: center;
+  border-radius: 20px;
+  padding: 5px;
+}
 
 @media screen and (min-width: 768px) {
-    
-    ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-    }
-    
-    h3 {
-        display: inline-block;
-    }
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
 
-    p {
-        display: flex;
-        width: 50%;
-    }
+  h3 {
+    display: inline-block;
+  }
 
-    .button {
-        display: inline-block;
-        padding: 15px;
-        position: relative;
-    }
+  p {
+    display: flex;
+    width: 50%;
+  }
 
-    .scroll {
-        display: inline-block;
-        padding: 15px;
-        position: relative;
-    }
+  .button {
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+  }
+
+  .scroll {
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+  }
 }
