@@ -24,10 +24,6 @@ li {
   margin: 5px;
 }
 
-.company {
-  font: #000;
-}
-
 .button {
   background-color: #000;
   color: #fff;
@@ -42,4 +38,14 @@ p {
   color: #69696a;
   border-left: 2px solid #69696a;
   padding-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+  
+    
 }
